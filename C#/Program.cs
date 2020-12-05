@@ -16,6 +16,12 @@ namespace AoC2020
                 case "2":
                     DayTwo.Run();
                     break;
+                case "3":
+                    DayThree.Run();
+                    break;
+                case "4":
+                    DayFour.Run();
+                    break;
                 default:
                     Console.WriteLine("Sorry don't know that one");
                     break;
@@ -23,7 +29,8 @@ namespace AoC2020
             }
 
             Console.WriteLine();
-            Console.WriteLine("Have an awesome day");
+            Console.WriteLine("Have an awesome day, press enter to close this");
+            Console.ReadLine();
         }
     }
 }
