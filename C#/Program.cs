@@ -55,6 +55,9 @@ namespace AoC2020
                 case "15":
                     DayFifteen.Run();
                     break;
+                case "16":
+                    DaySixteen.Run();
+                    break;
                 default:
                     Console.WriteLine("Sorry don't know that one");
                     break;
