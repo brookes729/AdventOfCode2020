@@ -77,6 +77,9 @@ namespace AoC2020
                 case "22":
                     DayTwentytwo.Run();
                     break;
+                case "23":
+                    DayTwentythree.Run();
+                    break;
                 default:
                     Console.WriteLine("Sorry don't know that one");
                     break;
